@@ -1,0 +1,1271 @@
+{
+    "CimClass":  {
+                     "CimSuperClassName":  null,
+                     "CimSuperClass":  null,
+                     "CimClassProperties":  [
+                                                "AllowDatagramProcessingOnWinServer",
+                                                "AllowNetworkProtectionDownLevel",
+                                                "AllowNetworkProtectionOnWinServer",
+                                                "AllowSwitchToAsyncInspection",
+                                                "ApplyDisableNetworkScanningToIOAV",
+                                                "AttackSurfaceReductionOnlyExclusions",
+                                                "AttackSurfaceReductionRules_Actions",
+                                                "AttackSurfaceReductionRules_Ids",
+                                                "AttackSurfaceReductionRules_RuleSpecificExclusions",
+                                                "AttackSurfaceReductionRules_RuleSpecificExclusions_Id",
+                                                "BruteForceProtectionAggressiveness",
+                                                "BruteForceProtectionConfiguredState",
+                                                "BruteForceProtectionExclusions",
+                                                "BruteForceProtectionMaxBlockTime",
+                                                "CheckForSignaturesBeforeRunningScan",
+                                                "CloudBlockLevel",
+                                                "CloudExtendedTimeout",
+                                                "ComputerID = \"\"",
+                                                "ControlledFolderAccessAllowedApplications",
+                                                "ControlledFolderAccessProtectedFolders",
+                                                "DefinitionUpdatesChannel",
+                                                "DisableArchiveScanning",
+                                                "DisableAutoExclusions = False",
+                                                "DisableBehaviorMonitoring",
+                                                "DisableBlockAtFirstSeen",
+                                                "DisableCacheMaintenance",
+                                                "DisableCatchupFullScan",
+                                                "DisableCatchupQuickScan",
+                                                "DisableCoreServiceECSIntegration",
+                                                "DisableCoreServiceTelemetry",
+                                                "DisableCpuThrottleOnIdleScans",
+                                                "DisableDatagramProcessing",
+                                                "DisableDnsOverTcpParsing",
+                                                "DisableDnsParsing",
+                                                "DisableEmailScanning",
+                                                "DisableFtpParsing",
+                                                "DisableGradualRelease",
+                                                "DisableHttpParsing",
+                                                "DisableInboundConnectionFiltering",
+                                                "DisableIOAVProtection",
+                                                "DisableNetworkProtectionPerfTelemetry",
+                                                "DisablePrivacyMode",
+                                                "DisableQuicParsing",
+                                                "DisableRdpParsing",
+                                                "DisableRealtimeMonitoring",
+                                                "DisableRemovableDriveScanning",
+                                                "DisableRestorePoint",
+                                                "DisableScanningMappedNetworkDrivesForFullScan",
+                                                "DisableScanningNetworkFiles",
+                                                "DisableScriptScanning",
+                                                "DisableSmtpParsing",
+                                                "DisableSshParsing",
+                                                "DisableTamperProtection",
+                                                "DisableTlsParsing",
+                                                "EnableControlledFolderAccess",
+                                                "EnableConvertWarnToBlock",
+                                                "EnableDnsSinkhole",
+                                                "EnableFileHashComputation",
+                                                "EnableFullScanOnBatteryPower",
+                                                "EnableLowCpuPriority",
+                                                "EnableNetworkProtection",
+                                                "EnableUdpReceiveOffload",
+                                                "EnableUdpSegmentationOffload",
+                                                "EngineUpdatesChannel",
+                                                "ExclusionExtension",
+                                                "ExclusionIpAddress",
+                                                "ExclusionPath",
+                                                "ExclusionProcess",
+                                                "ForceUseProxyOnly",
+                                                "HideExclusionsFromLocalUsers",
+                                                "HighThreatDefaultAction",
+                                                "IntelTDTEnabled",
+                                                "LowThreatDefaultAction",
+                                                "MAPSReporting",
+                                                "MeteredConnectionUpdates",
+                                                "ModerateThreatDefaultAction",
+                                                "NetworkProtectionReputationMode",
+                                                "OobeEnableRtpAndSigUpdate",
+                                                "PerformanceModeStatus",
+                                                "PlatformUpdatesChannel",
+                                                "ProxyBypass",
+                                                "ProxyPacUrl",
+                                                "ProxyServer",
+                                                "PUAProtection",
+                                                "QuarantinePurgeItemsAfterDelay",
+                                                "QuickScanIncludeExclusions",
+                                                "RandomizeScheduleTaskTimes",
+                                                "RealTimeScanDirection = 0",
+                                                "RemediationScheduleDay",
+                                                "RemediationScheduleTime",
+                                                "RemoteEncryptionProtectionAggressiveness",
+                                                "RemoteEncryptionProtectionConfiguredState",
+                                                "RemoteEncryptionProtectionExclusions",
+                                                "RemoteEncryptionProtectionMaxBlockTime",
+                                                "RemoveScanningThreadPoolCap",
+                                                "ReportDynamicSignatureDroppedEvent",
+                                                "ReportingAdditionalActionTimeOut",
+                                                "ReportingCriticalFailureTimeOut",
+                                                "ReportingNonCriticalTimeOut",
+                                                "ScanAvgCPULoadFactor",
+                                                "ScanOnlyIfIdleEnabled",
+                                                "ScanParameters",
+                                                "ScanPurgeItemsAfterDelay",
+                                                "ScanScheduleDay",
+                                                "ScanScheduleOffset",
+                                                "ScanScheduleQuickScanTime",
+                                                "ScanScheduleTime",
+                                                "SchedulerRandomizationTime",
+                                                "ServiceHealthReportInterval",
+                                                "SevereThreatDefaultAction",
+                                                "SharedSignaturesPath",
+                                                "SharedSignaturesPathUpdateAtScheduledTimeOnly",
+                                                "SignatureAuGracePeriod",
+                                                "SignatureBlobFileSharesSources",
+                                                "SignatureBlobUpdateInterval",
+                                                "SignatureDefinitionUpdateFileSharesSources",
+                                                "SignatureDisableUpdateOnStartupWithoutEngine",
+                                                "SignatureFallbackOrder",
+                                                "SignatureFirstAuGracePeriod",
+                                                "SignatureScheduleDay",
+                                                "SignatureScheduleTime",
+                                                "SignatureUpdateCatchupInterval",
+                                                "SignatureUpdateInterval",
+                                                "SubmitSamplesConsent",
+                                                "ThreatIDDefaultAction_Actions",
+                                                "ThreatIDDefaultAction_Ids",
+                                                "ThrottleForScheduledScanOnly",
+                                                "TrustLabelProtectionStatus",
+                                                "UILockdown",
+                                                "UnknownThreatDefaultAction"
+                                            ],
+                     "CimClassQualifiers":  [
+                                                "dynamic = True",
+                                                "locale = 1033",
+                                                "provider = \"ProtectionManagement\""
+                                            ],
+                     "CimClassMethods":  [
+                                             "Set",
+                                             "Remove",
+                                             "Add"
+                                         ],
+                     "CimSystemProperties":  {
+                                                 "Namespace":  "root/Microsoft/Windows/Defender",
+                                                 "ServerName":  "TAKESHIMUTOCAB0",
+                                                 "ClassName":  "MSFT_MpPreference",
+                                                 "Path":  null
+                                             }
+                 },
+    "CimInstanceProperties":  [
+                                  {
+                                      "Name":  "AllowDatagramProcessingOnWinServer",
+                                      "Value":  false,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "AllowNetworkProtectionDownLevel",
+                                      "Value":  false,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "AllowNetworkProtectionOnWinServer",
+                                      "Value":  false,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "AllowSwitchToAsyncInspection",
+                                      "Value":  false,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "ApplyDisableNetworkScanningToIOAV",
+                                      "Value":  false,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "AttackSurfaceReductionOnlyExclusions",
+                                      "Value":  "N/A: Must be an administrator to view exclusions",
+                                      "CimType":  30,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "AttackSurfaceReductionRules_Actions",
+                                      "Value":  null,
+                                      "CimType":  18,
+                                      "Flags":  "Property, NotModified, NullValue",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "AttackSurfaceReductionRules_Ids",
+                                      "Value":  null,
+                                      "CimType":  30,
+                                      "Flags":  "Property, NotModified, NullValue",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "AttackSurfaceReductionRules_RuleSpecificExclusions",
+                                      "Value":  "N/A: Must be an administrator to view exclusions",
+                                      "CimType":  30,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "AttackSurfaceReductionRules_RuleSpecificExclusions_Id",
+                                      "Value":  "N/A: Must be an administrator to view exclusions",
+                                      "CimType":  30,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "BruteForceProtectionAggressiveness",
+                                      "Value":  0,
+                                      "CimType":  2,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "BruteForceProtectionConfiguredState",
+                                      "Value":  0,
+                                      "CimType":  2,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "BruteForceProtectionExclusions",
+                                      "Value":  "N/A: Must be an administrator to view exclusions",
+                                      "CimType":  30,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "BruteForceProtectionMaxBlockTime",
+                                      "Value":  0,
+                                      "CimType":  6,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "CheckForSignaturesBeforeRunningScan",
+                                      "Value":  false,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "CloudBlockLevel",
+                                      "Value":  0,
+                                      "CimType":  2,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "CloudExtendedTimeout",
+                                      "Value":  0,
+                                      "CimType":  6,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "ComputerID",
+                                      "Value":  "3C21E0F9-A84B-4A33-8C5D-737A52464CB7",
+                                      "CimType":  14,
+                                      "Flags":  "Property, Key, ReadOnly, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "ControlledFolderAccessAllowedApplications",
+                                      "Value":  "N/A: Must be an administrator to view exclusions",
+                                      "CimType":  30,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "ControlledFolderAccessProtectedFolders",
+                                      "Value":  null,
+                                      "CimType":  30,
+                                      "Flags":  "Property, NotModified, NullValue",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "DefinitionUpdatesChannel",
+                                      "Value":  0,
+                                      "CimType":  2,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "DisableArchiveScanning",
+                                      "Value":  false,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "DisableAutoExclusions",
+                                      "Value":  false,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "DisableBehaviorMonitoring",
+                                      "Value":  false,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "DisableBlockAtFirstSeen",
+                                      "Value":  false,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "DisableCacheMaintenance",
+                                      "Value":  false,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "DisableCatchupFullScan",
+                                      "Value":  true,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "DisableCatchupQuickScan",
+                                      "Value":  true,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "DisableCoreServiceECSIntegration",
+                                      "Value":  false,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "DisableCoreServiceTelemetry",
+                                      "Value":  false,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "DisableCpuThrottleOnIdleScans",
+                                      "Value":  true,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "DisableDatagramProcessing",
+                                      "Value":  false,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "DisableDnsOverTcpParsing",
+                                      "Value":  false,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "DisableDnsParsing",
+                                      "Value":  false,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "DisableEmailScanning",
+                                      "Value":  true,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "DisableFtpParsing",
+                                      "Value":  false,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "DisableGradualRelease",
+                                      "Value":  false,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "DisableHttpParsing",
+                                      "Value":  false,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "DisableInboundConnectionFiltering",
+                                      "Value":  false,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "DisableIOAVProtection",
+                                      "Value":  false,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "DisableNetworkProtectionPerfTelemetry",
+                                      "Value":  false,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "DisablePrivacyMode",
+                                      "Value":  false,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "DisableQuicParsing",
+                                      "Value":  false,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "DisableRdpParsing",
+                                      "Value":  false,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "DisableRealtimeMonitoring",
+                                      "Value":  false,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "DisableRemovableDriveScanning",
+                                      "Value":  true,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "DisableRestorePoint",
+                                      "Value":  true,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "DisableScanningMappedNetworkDrivesForFullScan",
+                                      "Value":  true,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "DisableScanningNetworkFiles",
+                                      "Value":  false,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "DisableScriptScanning",
+                                      "Value":  false,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "DisableSmtpParsing",
+                                      "Value":  false,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "DisableSshParsing",
+                                      "Value":  false,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "DisableTamperProtection",
+                                      "Value":  false,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "DisableTlsParsing",
+                                      "Value":  false,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "EnableControlledFolderAccess",
+                                      "Value":  1,
+                                      "CimType":  2,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "EnableConvertWarnToBlock",
+                                      "Value":  false,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "EnableDnsSinkhole",
+                                      "Value":  true,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "EnableFileHashComputation",
+                                      "Value":  false,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "EnableFullScanOnBatteryPower",
+                                      "Value":  false,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "EnableLowCpuPriority",
+                                      "Value":  false,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "EnableNetworkProtection",
+                                      "Value":  0,
+                                      "CimType":  2,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "EnableUdpReceiveOffload",
+                                      "Value":  false,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "EnableUdpSegmentationOffload",
+                                      "Value":  false,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "EngineUpdatesChannel",
+                                      "Value":  0,
+                                      "CimType":  2,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "ExclusionExtension",
+                                      "Value":  "N/A: Must be an administrator to view exclusions",
+                                      "CimType":  30,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "ExclusionIpAddress",
+                                      "Value":  "N/A: Must be an administrator to view exclusions",
+                                      "CimType":  30,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "ExclusionPath",
+                                      "Value":  "N/A: Must be an administrator to view exclusions",
+                                      "CimType":  30,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "ExclusionProcess",
+                                      "Value":  "N/A: Must be an administrator to view exclusions",
+                                      "CimType":  30,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "ForceUseProxyOnly",
+                                      "Value":  false,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "HideExclusionsFromLocalUsers",
+                                      "Value":  true,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "HighThreatDefaultAction",
+                                      "Value":  0,
+                                      "CimType":  2,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "IntelTDTEnabled",
+                                      "Value":  null,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified, NullValue",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "LowThreatDefaultAction",
+                                      "Value":  0,
+                                      "CimType":  2,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "MAPSReporting",
+                                      "Value":  2,
+                                      "CimType":  2,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "MeteredConnectionUpdates",
+                                      "Value":  false,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "ModerateThreatDefaultAction",
+                                      "Value":  0,
+                                      "CimType":  2,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "NetworkProtectionReputationMode",
+                                      "Value":  0,
+                                      "CimType":  6,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "OobeEnableRtpAndSigUpdate",
+                                      "Value":  false,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "PerformanceModeStatus",
+                                      "Value":  1,
+                                      "CimType":  2,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "PlatformUpdatesChannel",
+                                      "Value":  0,
+                                      "CimType":  2,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "ProxyBypass",
+                                      "Value":  null,
+                                      "CimType":  30,
+                                      "Flags":  "Property, NotModified, NullValue",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "ProxyPacUrl",
+                                      "Value":  "",
+                                      "CimType":  14,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "ProxyServer",
+                                      "Value":  "",
+                                      "CimType":  14,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "PUAProtection",
+                                      "Value":  0,
+                                      "CimType":  2,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "QuarantinePurgeItemsAfterDelay",
+                                      "Value":  90,
+                                      "CimType":  6,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "QuickScanIncludeExclusions",
+                                      "Value":  0,
+                                      "CimType":  2,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "RandomizeScheduleTaskTimes",
+                                      "Value":  true,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "RealTimeScanDirection",
+                                      "Value":  0,
+                                      "CimType":  2,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "RemediationScheduleDay",
+                                      "Value":  0,
+                                      "CimType":  2,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "RemediationScheduleTime",
+                                      "Value":  "02:00:00",
+                                      "CimType":  13,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "RemoteEncryptionProtectionAggressiveness",
+                                      "Value":  0,
+                                      "CimType":  2,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "RemoteEncryptionProtectionConfiguredState",
+                                      "Value":  0,
+                                      "CimType":  2,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "RemoteEncryptionProtectionExclusions",
+                                      "Value":  "N/A: Must be an administrator to view exclusions",
+                                      "CimType":  30,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "RemoteEncryptionProtectionMaxBlockTime",
+                                      "Value":  0,
+                                      "CimType":  6,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "RemoveScanningThreadPoolCap",
+                                      "Value":  false,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "ReportDynamicSignatureDroppedEvent",
+                                      "Value":  false,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "ReportingAdditionalActionTimeOut",
+                                      "Value":  10080,
+                                      "CimType":  6,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "ReportingCriticalFailureTimeOut",
+                                      "Value":  10080,
+                                      "CimType":  6,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "ReportingNonCriticalTimeOut",
+                                      "Value":  1440,
+                                      "CimType":  6,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "ScanAvgCPULoadFactor",
+                                      "Value":  50,
+                                      "CimType":  2,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "ScanOnlyIfIdleEnabled",
+                                      "Value":  true,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "ScanParameters",
+                                      "Value":  1,
+                                      "CimType":  2,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "ScanPurgeItemsAfterDelay",
+                                      "Value":  15,
+                                      "CimType":  6,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "ScanScheduleDay",
+                                      "Value":  0,
+                                      "CimType":  2,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "ScanScheduleOffset",
+                                      "Value":  120,
+                                      "CimType":  6,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "ScanScheduleQuickScanTime",
+                                      "Value":  "00:00:00",
+                                      "CimType":  13,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "ScanScheduleTime",
+                                      "Value":  "02:00:00",
+                                      "CimType":  13,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "SchedulerRandomizationTime",
+                                      "Value":  4,
+                                      "CimType":  6,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "ServiceHealthReportInterval",
+                                      "Value":  60,
+                                      "CimType":  6,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "SevereThreatDefaultAction",
+                                      "Value":  0,
+                                      "CimType":  2,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "SharedSignaturesPath",
+                                      "Value":  "",
+                                      "CimType":  14,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "SharedSignaturesPathUpdateAtScheduledTimeOnly",
+                                      "Value":  false,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "SignatureAuGracePeriod",
+                                      "Value":  0,
+                                      "CimType":  6,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "SignatureBlobFileSharesSources",
+                                      "Value":  "",
+                                      "CimType":  14,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "SignatureBlobUpdateInterval",
+                                      "Value":  60,
+                                      "CimType":  6,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "SignatureDefinitionUpdateFileSharesSources",
+                                      "Value":  "",
+                                      "CimType":  14,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "SignatureDisableUpdateOnStartupWithoutEngine",
+                                      "Value":  false,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "SignatureFallbackOrder",
+                                      "Value":  "MicrosoftUpdateServer|MMPC",
+                                      "CimType":  14,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "SignatureFirstAuGracePeriod",
+                                      "Value":  120,
+                                      "CimType":  6,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "SignatureScheduleDay",
+                                      "Value":  8,
+                                      "CimType":  2,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "SignatureScheduleTime",
+                                      "Value":  "01:45:00",
+                                      "CimType":  13,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "SignatureUpdateCatchupInterval",
+                                      "Value":  1,
+                                      "CimType":  6,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "SignatureUpdateInterval",
+                                      "Value":  0,
+                                      "CimType":  6,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "SubmitSamplesConsent",
+                                      "Value":  1,
+                                      "CimType":  2,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "ThreatIDDefaultAction_Actions",
+                                      "Value":  null,
+                                      "CimType":  18,
+                                      "Flags":  "Property, NotModified, NullValue",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "ThreatIDDefaultAction_Ids",
+                                      "Value":  null,
+                                      "CimType":  25,
+                                      "Flags":  "Property, NotModified, NullValue",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "ThrottleForScheduledScanOnly",
+                                      "Value":  true,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "TrustLabelProtectionStatus",
+                                      "Value":  0,
+                                      "CimType":  6,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "UILockdown",
+                                      "Value":  false,
+                                      "CimType":  1,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  },
+                                  {
+                                      "Name":  "UnknownThreatDefaultAction",
+                                      "Value":  0,
+                                      "CimType":  2,
+                                      "Flags":  "Property, NotModified",
+                                      "IsValueModified":  false
+                                  }
+                              ],
+    "CimSystemProperties":  {
+                                "Namespace":  "root/Microsoft/Windows/Defender",
+                                "ServerName":  "TAKESHIMUTOCAB0",
+                                "ClassName":  "MSFT_MpPreference",
+                                "Path":  null
+                            },
+    "AllowDatagramProcessingOnWinServer":  false,
+    "AllowNetworkProtectionDownLevel":  false,
+    "AllowNetworkProtectionOnWinServer":  false,
+    "AllowSwitchToAsyncInspection":  false,
+    "ApplyDisableNetworkScanningToIOAV":  false,
+    "AttackSurfaceReductionOnlyExclusions":  [
+                                                 "N/A: Must be an administrator to view exclusions"
+                                             ],
+    "AttackSurfaceReductionRules_Actions":  null,
+    "AttackSurfaceReductionRules_Ids":  null,
+    "AttackSurfaceReductionRules_RuleSpecificExclusions":  [
+                                                               "N/A: Must be an administrator to view exclusions"
+                                                           ],
+    "AttackSurfaceReductionRules_RuleSpecificExclusions_Id":  [
+                                                                  "N/A: Must be an administrator to view exclusions"
+                                                              ],
+    "BruteForceProtectionAggressiveness":  0,
+    "BruteForceProtectionConfiguredState":  0,
+    "BruteForceProtectionExclusions":  [
+                                           "N/A: Must be an administrator to view exclusions"
+                                       ],
+    "BruteForceProtectionMaxBlockTime":  0,
+    "CheckForSignaturesBeforeRunningScan":  false,
+    "CloudBlockLevel":  0,
+    "CloudExtendedTimeout":  0,
+    "ComputerID":  "3C21E0F9-A84B-4A33-8C5D-737A52464CB7",
+    "ControlledFolderAccessAllowedApplications":  [
+                                                      "N/A: Must be an administrator to view exclusions"
+                                                  ],
+    "ControlledFolderAccessProtectedFolders":  null,
+    "DefinitionUpdatesChannel":  0,
+    "DisableArchiveScanning":  false,
+    "DisableAutoExclusions":  false,
+    "DisableBehaviorMonitoring":  false,
+    "DisableBlockAtFirstSeen":  false,
+    "DisableCacheMaintenance":  false,
+    "DisableCatchupFullScan":  true,
+    "DisableCatchupQuickScan":  true,
+    "DisableCoreServiceECSIntegration":  false,
+    "DisableCoreServiceTelemetry":  false,
+    "DisableCpuThrottleOnIdleScans":  true,
+    "DisableDatagramProcessing":  false,
+    "DisableDnsOverTcpParsing":  false,
+    "DisableDnsParsing":  false,
+    "DisableEmailScanning":  true,
+    "DisableFtpParsing":  false,
+    "DisableGradualRelease":  false,
+    "DisableHttpParsing":  false,
+    "DisableInboundConnectionFiltering":  false,
+    "DisableIOAVProtection":  false,
+    "DisableNetworkProtectionPerfTelemetry":  false,
+    "DisablePrivacyMode":  false,
+    "DisableQuicParsing":  false,
+    "DisableRdpParsing":  false,
+    "DisableRealtimeMonitoring":  false,
+    "DisableRemovableDriveScanning":  true,
+    "DisableRestorePoint":  true,
+    "DisableScanningMappedNetworkDrivesForFullScan":  true,
+    "DisableScanningNetworkFiles":  false,
+    "DisableScriptScanning":  false,
+    "DisableSmtpParsing":  false,
+    "DisableSshParsing":  false,
+    "DisableTamperProtection":  false,
+    "DisableTlsParsing":  false,
+    "EnableControlledFolderAccess":  1,
+    "EnableConvertWarnToBlock":  false,
+    "EnableDnsSinkhole":  true,
+    "EnableFileHashComputation":  false,
+    "EnableFullScanOnBatteryPower":  false,
+    "EnableLowCpuPriority":  false,
+    "EnableNetworkProtection":  0,
+    "EnableUdpReceiveOffload":  false,
+    "EnableUdpSegmentationOffload":  false,
+    "EngineUpdatesChannel":  0,
+    "ExclusionExtension":  [
+                               "N/A: Must be an administrator to view exclusions"
+                           ],
+    "ExclusionIpAddress":  [
+                               "N/A: Must be an administrator to view exclusions"
+                           ],
+    "ExclusionPath":  [
+                          "N/A: Must be an administrator to view exclusions"
+                      ],
+    "ExclusionProcess":  [
+                             "N/A: Must be an administrator to view exclusions"
+                         ],
+    "ForceUseProxyOnly":  false,
+    "HideExclusionsFromLocalUsers":  true,
+    "HighThreatDefaultAction":  0,
+    "IntelTDTEnabled":  null,
+    "LowThreatDefaultAction":  0,
+    "MAPSReporting":  2,
+    "MeteredConnectionUpdates":  false,
+    "ModerateThreatDefaultAction":  0,
+    "NetworkProtectionReputationMode":  0,
+    "OobeEnableRtpAndSigUpdate":  false,
+    "PerformanceModeStatus":  1,
+    "PlatformUpdatesChannel":  0,
+    "ProxyBypass":  null,
+    "ProxyPacUrl":  "",
+    "ProxyServer":  "",
+    "PUAProtection":  0,
+    "QuarantinePurgeItemsAfterDelay":  90,
+    "QuickScanIncludeExclusions":  0,
+    "RandomizeScheduleTaskTimes":  true,
+    "RealTimeScanDirection":  0,
+    "RemediationScheduleDay":  0,
+    "RemediationScheduleTime":  {
+                                    "Ticks":  72000000000,
+                                    "Days":  0,
+                                    "Hours":  2,
+                                    "Milliseconds":  0,
+                                    "Minutes":  0,
+                                    "Seconds":  0,
+                                    "TotalDays":  0.083333333333333329,
+                                    "TotalHours":  2,
+                                    "TotalMilliseconds":  7200000,
+                                    "TotalMinutes":  120,
+                                    "TotalSeconds":  7200
+                                },
+    "RemoteEncryptionProtectionAggressiveness":  0,
+    "RemoteEncryptionProtectionConfiguredState":  0,
+    "RemoteEncryptionProtectionExclusions":  [
+                                                 "N/A: Must be an administrator to view exclusions"
+                                             ],
+    "RemoteEncryptionProtectionMaxBlockTime":  0,
+    "RemoveScanningThreadPoolCap":  false,
+    "ReportDynamicSignatureDroppedEvent":  false,
+    "ReportingAdditionalActionTimeOut":  10080,
+    "ReportingCriticalFailureTimeOut":  10080,
+    "ReportingNonCriticalTimeOut":  1440,
+    "ScanAvgCPULoadFactor":  50,
+    "ScanOnlyIfIdleEnabled":  true,
+    "ScanParameters":  1,
+    "ScanPurgeItemsAfterDelay":  15,
+    "ScanScheduleDay":  0,
+    "ScanScheduleOffset":  120,
+    "ScanScheduleQuickScanTime":  {
+                                      "Ticks":  0,
+                                      "Days":  0,
+                                      "Hours":  0,
+                                      "Milliseconds":  0,
+                                      "Minutes":  0,
+                                      "Seconds":  0,
+                                      "TotalDays":  0,
+                                      "TotalHours":  0,
+                                      "TotalMilliseconds":  0,
+                                      "TotalMinutes":  0,
+                                      "TotalSeconds":  0
+                                  },
+    "ScanScheduleTime":  {
+                             "Ticks":  72000000000,
+                             "Days":  0,
+                             "Hours":  2,
+                             "Milliseconds":  0,
+                             "Minutes":  0,
+                             "Seconds":  0,
+                             "TotalDays":  0.083333333333333329,
+                             "TotalHours":  2,
+                             "TotalMilliseconds":  7200000,
+                             "TotalMinutes":  120,
+                             "TotalSeconds":  7200
+                         },
+    "SchedulerRandomizationTime":  4,
+    "ServiceHealthReportInterval":  60,
+    "SevereThreatDefaultAction":  0,
+    "SharedSignaturesPath":  "",
+    "SharedSignaturesPathUpdateAtScheduledTimeOnly":  false,
+    "SignatureAuGracePeriod":  0,
+    "SignatureBlobFileSharesSources":  "",
+    "SignatureBlobUpdateInterval":  60,
+    "SignatureDefinitionUpdateFileSharesSources":  "",
+    "SignatureDisableUpdateOnStartupWithoutEngine":  false,
+    "SignatureFallbackOrder":  "MicrosoftUpdateServer|MMPC",
+    "SignatureFirstAuGracePeriod":  120,
+    "SignatureScheduleDay":  8,
+    "SignatureScheduleTime":  {
+                                  "Ticks":  63000000000,
+                                  "Days":  0,
+                                  "Hours":  1,
+                                  "Milliseconds":  0,
+                                  "Minutes":  45,
+                                  "Seconds":  0,
+                                  "TotalDays":  0.072916666666666657,
+                                  "TotalHours":  1.75,
+                                  "TotalMilliseconds":  6300000,
+                                  "TotalMinutes":  105,
+                                  "TotalSeconds":  6300
+                              },
+    "SignatureUpdateCatchupInterval":  1,
+    "SignatureUpdateInterval":  0,
+    "SubmitSamplesConsent":  1,
+    "ThreatIDDefaultAction_Actions":  null,
+    "ThreatIDDefaultAction_Ids":  null,
+    "ThrottleForScheduledScanOnly":  true,
+    "TrustLabelProtectionStatus":  0,
+    "UILockdown":  false,
+    "UnknownThreatDefaultAction":  0,
+    "PSComputerName":  null
+}
